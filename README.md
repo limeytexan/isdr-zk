@@ -8,4 +8,4 @@ seconds and writes its name and the store paths of its catalog inputs.
 |---|---|---|
 | `isdr-zk-client` | 6 s | `python3Packages.srv-lookup` |
 | `python3Packages.flox-isdr-client` | 3 s | `python3Packages.srv-lookup` |
-| `python3Packages.isdr-zk-client` | 8 s | `python3Packages.srv_lookup` |
+| `python3Packages.isdr-zk-client` | 8 s | `python3Packages.srv-lookup` |

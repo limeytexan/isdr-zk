@@ -1,6 +1,6 @@
 { runCommand, catalogs }:
 let
-  dep_python3Packages_srv_lookup = catalogs.brantley.python3Packages.srv_lookup;
+  dep_python3Packages_srv_lookup = catalogs.brantley.python3Packages.srv-lookup;
 in
 runCommand "isdr-zk-client-1" { pname = "isdr-zk-client"; version = "1"; inputs = [ dep_python3Packages_srv_lookup ]; } ''
   sleep 8
